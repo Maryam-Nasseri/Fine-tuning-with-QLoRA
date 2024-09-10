@@ -11,5 +11,5 @@
 ## Fine-tuning process with QLoRA
 
 - The first section: follow the process of simple fine-tuning with the BERT uncased model in this link
-- Set up the LoRA configuration as in ``
-- 
+- Set up the LoRA configuration as in `lora-config.py`
+- Set up the bitsandbytes configuration for quantisation
