@@ -7,3 +7,9 @@
 - PEFT techniques: Prefix Tuning and LoRA
 - Minimising the number of trainable parameters in a neural network
 - More adaptable and memory-efficient
+
+## Fine-tuning process with QLoRA
+
+- The first section: follow the process of simple fine-tuning with the BERT uncased model in this link
+- Set up the LoRA configuration as in ``
+- 
