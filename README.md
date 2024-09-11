@@ -12,4 +12,4 @@
 
 - The first section: follow the process of simple fine-tuning with the BERT uncased model in this link
 - Set up the LoRA configuration as in `lora-config.py`
-- Set up the bitsandbytes configuration for quantisation
+- Set up the bitsandbytes configuration for quantisation as in `bnb_config.py`.
