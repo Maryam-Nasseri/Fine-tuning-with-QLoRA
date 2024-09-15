@@ -5,3 +5,10 @@ training_args = TrainingArguments(
     evaluation_strategy="epoch",      # evaluation in steps or epochs
     num_train_epochs=1,               # how many times to go through the whole training dataset 
 )
+
+# additional arguments to set:
+#weight_decay=0.01,
+#adam_beta1=0.9,
+#adam_beta2=0.999,
+#fp16 = False,
+#bf16 = False, 
