@@ -6,7 +6,7 @@ training_args = TrainingArguments(
     num_train_epochs=1,               # how many times to go through the whole training dataset 
 )
 
-# additional arguments to set 
+# additional arguments to set (change the values if needed):
 #weight_decay=0.01,
 #adam_beta1=0.9,
 #adam_beta2=0.999,
