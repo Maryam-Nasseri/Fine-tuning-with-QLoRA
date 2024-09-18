@@ -18,3 +18,4 @@
 
 - Follow the previous steps, then
 - Set up the bitsandbytes configuration for quantisation as in `bnb_config.py`.
+- Instead of `Trainer()` method (as in full fine-tuning and fine-tuning with LoRA), use the `SFTTrainer()` method.
