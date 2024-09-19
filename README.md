@@ -12,7 +12,8 @@
 
 - The first section: follow the process of simple fine-tuning with the BERT uncased model in this link: [Fine-tuning LLMs Locally](https://github.com/Maryam-Nasseri/Fine-tuning-LLMs-Locally)
 - Set up the LoRA configuration as in `lora-config.py`
-- Set up the training arguments to pass to the SFTTrainer method, as in `training_args.py`
+- Set up the training arguments to pass to the Trainer method, as in `training_args.py`.
+- Set up the `Trainer` arguments as in trainer.py`.
 
 ## Fine-tuning with QLoRA
 
