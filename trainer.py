@@ -4,3 +4,5 @@ my_trainer = Trainer (
   train_dataset=tokenised_train,
   eval_dataset=tokenised_eval
 )
+
+my_trainer.train()
