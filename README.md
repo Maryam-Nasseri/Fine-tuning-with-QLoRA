@@ -7,6 +7,7 @@
 - PEFT techniques: Prefix Tuning and LoRA
 - Minimising the number of trainable parameters in a neural network
 - More adaptable and memory-efficient
+- Main methods: Prefix-Tuning, LoRA (Low-Rank Adaptation), QLoRA (Quantised LoRA)
 
 ## Fine-tuning process with LoRA
 
