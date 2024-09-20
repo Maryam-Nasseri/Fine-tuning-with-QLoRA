@@ -11,11 +11,11 @@
 
 ## Fine-tuning process with LoRA
 
-- The first section: follow the process of simple fine-tuning with the BERT uncased model in this link: [Fine-tuning LLMs Locally](https://github.com/Maryam-Nasseri/Fine-tuning-LLMs-Locally)
-- Set up the LoRA configuration as in `lora-config.py`
-- Set up the training arguments to pass to the Trainer method, as in `training_args.py`.
-- Set up the `Trainer` arguments as in trainer.py`.
-- Train/fine-tune the model using `train()` on the Trainer object (e.g., my_trainer in the above file).
+1. The first section: follow the process of simple fine-tuning with the BERT uncased model in this link: [Fine-tuning LLMs Locally](https://github.com/Maryam-Nasseri/Fine-tuning-LLMs-Locally)
+2. Set up the LoRA configuration as in `lora-config.py`
+3. Set up the training arguments to pass to the Trainer method, as in `training_args.py`.
+4. Set up the `Trainer` arguments as in trainer.py`.
+5. Train/fine-tune the model using `train()` on the Trainer object (e.g., my_trainer in the above file).
 
 ## Fine-tuning with QLoRA
 
