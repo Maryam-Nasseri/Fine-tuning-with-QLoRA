@@ -3,6 +3,7 @@
 This repository contains:
 1. A brief overview of Parameter Efficient Fine Tuning (PEFT)
 2. The process for fine-tuning/training with LoRA (Low-Rank Adaptation) and a link to a video tutorial
+3. The process of fine-tuning with QLoRA
 
 ## Finetuning with PEFT (Parameter Efficient Fine Tuning) Methods:
 
