@@ -1,4 +1,4 @@
-# Fine-tuning-with-QLoRA
+# Fine-tuning-with-LoRA & QLoRA
 
 This repository contains:
 1. A brief overview of Parameter Efficient Fine Tuning (PEFT)
