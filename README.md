@@ -21,6 +21,7 @@ This repository contains:
 3. Set up the training arguments to pass to the Trainer method, as in `training_args.py`.
 4. Set up the `Trainer` arguments as in `trainer.py`.
 5. Train/fine-tune the model using `train()` on the Trainer object (e.g., my_trainer in the above file).
+6. Save the model using `save_pretrained("name")` on the peft model.
 
 ## Fine-tuning with QLoRA
 
