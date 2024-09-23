@@ -23,6 +23,9 @@ This repository contains:
 5. Train/fine-tune the model using `train()` on the Trainer object (e.g., my_trainer in the above file).
 6. Save the model using `save_pretrained("name")` on the peft model.
 7. Optional: merge the base model with the adapter using `merge_and_unload()`.
+8. Below is the link to the video tutorial with LoRA:
+
+[![Watch the video on fine-tuning LLMs with LoRA - PEFT with code](https://img.youtube.com/vi/aj1V9_5nAfo/maxresdefault.jpg)](https://youtu.be/aj1V9_5nAfo) 
 
 ## Fine-tuning with QLoRA
 
