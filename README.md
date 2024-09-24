@@ -32,3 +32,7 @@ This repository contains:
 - Follow the previous steps, then
 - Set up the bitsandbytes configuration for quantisation as in `bnb_config.py`.
 - Instead of `Trainer()` method (as in full fine-tuning and fine-tuning with LoRA), use the `SFTTrainer()` method.
+
+
+## Practical Considerations:
+- Before using any dataset on any model (LLM), be sure that the input data format of that dataset matches the model's data template; otherwise, you need to make a function to format the data.
