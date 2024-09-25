@@ -35,4 +35,5 @@ This repository contains:
 
 
 ## Practical Considerations:
+- For learning and practice purposes, start with a lightweight model which is faster to load and train, and move on to larger models only for performance.
 - Before using any dataset on any model (LLM), be sure that the input data format of that dataset matches the model's data template; otherwise, you need to make a function to format the data.
