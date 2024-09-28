@@ -29,7 +29,7 @@ This repository contains:
 
 ## Fine-tuning with QLoRA
 
-- Follow the previous steps, then
+- Follow the steps in the previous section (fine-tuning with LoRA) first; here we need to make the peft model in quantised versions. 
 - Set up the bitsandbytes configuration for quantisation as in `bnb_config.py`.
 - Instead of `Trainer()` method (as in full fine-tuning and fine-tuning with LoRA), use the `SFTTrainer()` method.
 
