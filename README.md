@@ -31,6 +31,7 @@ This repository contains:
 
 - Follow the steps in the previous section (fine-tuning with LoRA) first; here we need to make the peft model in quantised versions. 
 - Set up the bitsandbytes configuration for quantisation as in `bnb_config.py`.
+- If needed, you can prepare the model's embedding layers for gradient updating after setting the bitsandbytes parameters.
 - Instead of `Trainer()` method (as in full fine-tuning and fine-tuning with LoRA), use the `SFTTrainer()` method.
 
 
