@@ -17,13 +17,14 @@ This repository contains:
 ## Fine-tuning process with LoRA
 
 1. The first section: follow the process of simple fine-tuning with the BERT uncased model in this link: [Fine-tuning LLMs Locally](https://github.com/Maryam-Nasseri/Fine-tuning-LLMs-Locally)
-2. Set up the LoRA configuration as in `lora-config.py`
-3. Set up the training arguments to pass to the Trainer method, as in `training_args.py`.
-4. Set up the `Trainer` arguments as in `trainer.py`.
-5. Train/fine-tune the model using `train()` on the Trainer object (e.g., my_trainer in the above file).
-6. Save the model using `save_pretrained("name")` on the peft model.
-7. Optional: merge the base model with the adapter using `merge_and_unload()`.
-8. Below is the link to the video tutorial with LoRA:
+2. Main installs in `install_libraries.py`.
+3. Set up the LoRA configuration as in `lora-config.py`
+4. Set up the training arguments to pass to the Trainer method, as in `training_args.py`.
+5. Set up the `Trainer` arguments as in `trainer.py`.
+6. Train/fine-tune the model using `train()` on the Trainer object (e.g., my_trainer in the above file).
+7. Save the model using `save_pretrained("name")` on the peft model.
+8. Optional: merge the base model with the adapter using `merge_and_unload()`.
+9. Below is the link to the video tutorial with LoRA:
 
 [![Watch the video on fine-tuning LLMs with LoRA PEFT with code](https://img.youtube.com/vi/aj1V9_5nAfo/maxresdefault.jpg)](https://youtu.be/aj1V9_5nAfo) 
 
