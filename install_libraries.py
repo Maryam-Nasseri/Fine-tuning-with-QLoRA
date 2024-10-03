@@ -6,7 +6,7 @@ pip install peft  #for the peft model and peft configuration
 pip install trl
 
 #Working with tensors
-
+pip install torch   #Pytorch for deep learning
 pip install einops  #for working with tensors
 
 # additional functionalities for processing data
