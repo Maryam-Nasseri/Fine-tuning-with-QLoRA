@@ -10,7 +10,8 @@ pip install accelerate
 pip install torch   #Pytorch for deep learning
 pip install einops  #for working with tensors
 
-# Additional functionalities for processing data and training/evaluation datasets
+# Additional functionalities for processing data; training/evaluation datasets; training evaluation
 pip install keras  
 pip install pandas
 pip install numpy
+pip install evaluate
