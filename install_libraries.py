@@ -6,13 +6,13 @@ pip install peft  #for the peft model and peft configuration
 pip install trl
 pip install accelerate==0.27.2
 pip install pandas  #processing data
-
 pip install torch   #Pytorch for deep learning
-pip install einops  #for working with tensors
+
+
 
 # Additional useful libraries for the fine-tuning process          
 pip install datasets
 pip install keras  #training/evaluation datasets
-
+pip install einops  #for working with tensors
 pip install numpy
 pip install evaluate   #training evaluation
