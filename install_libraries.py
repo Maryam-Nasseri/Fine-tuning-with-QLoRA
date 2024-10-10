@@ -12,7 +12,7 @@ pip install torch   #Pytorch for deep learning
 
 # Additional useful libraries for the fine-tuning process          
 pip install datasets
-pip install keras  #training/evaluation datasets
+pip install keras==2.16.0  #training/evaluation datasets
 pip install einops  #for working with tensors
-pip install numpy
+pip install numpy==1.26.4
 pip install evaluate   #training evaluation
