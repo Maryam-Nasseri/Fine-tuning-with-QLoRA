@@ -35,6 +35,9 @@ This repository contains:
 - If needed, you can prepare the model's embedding layers for gradient updating after setting the bitsandbytes parameters.
 - Instead of `Trainer()` method (as in full fine-tuning and fine-tuning with LoRA), use the `SFTTrainer()` method.
 
+Below is the link to the tutorial of fine-tuning with QLoRA:
+
+[![Watch the video on fine-tuning LLMs with QLoRA PEFT with code](https://img.youtube.com/vi/QzsjHUhZZLE/maxresdefault.jpg)](https://youtu.be/QzsjHUhZZLE) 
 
 ## Practical Considerations:
 - For learning and practice purposes, start with a lightweight model which is faster to load and train, and move on to larger models only for performance.
