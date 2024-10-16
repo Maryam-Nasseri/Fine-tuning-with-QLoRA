@@ -13,7 +13,10 @@ This repository contains:
 - Minimising the number of trainable parameters in a neural network
 - More adaptable and memory-efficient
 - Main methods: Prefix-Tuning, LoRA (Low-Rank Adaptation), QLoRA (Quantised LoRA)
-- LoRA:  allows small adapters to be tailored to specific datasets or users.
+-- LoRA:
+  - allows small adapters to be tailored to specific datasets or users.
+  - Less memory needed for loading and processing
+  - Introduces new parameters only during the training
 
 ## Fine-tuning process with LoRA
 
